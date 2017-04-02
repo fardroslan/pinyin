@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pinyin Search</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="script/pinyin.js?v=1"></script>
+  </head>
+  <body>
+    <br>
+    <div class="container col-md-6" id="content" tabindex="-1">
+		<div class="panel panel-default">
+  			<div class="panel-heading">Pinyin Search</div>
+  			<div class="panel-body">
+  			
+  				<div class="row">
+  					<div class="col-md-12">
+  						<label for="basic-url">Search for: </label>
+						<div class="input-group">
+  							<span class="input-group-addon" id="basic-addon3"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+  							<input id="pinyin_textbox" type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="Pinyin Search for Matching Chinese Character or Word">
+						</div>
+						<div class="input-group text-right">
+						<span class="small">You can search in Pinyin | English</span>
+						</div>
+						<br>
+						<span for="basic-url">Chinese character/word:</span>
+						<div class="input-group">
+  							<mark><span id="chinesetranslate" class="notranslate lead"></span></mark>
+						</div>
+						
+  					</div>
+				</div>
+	
+  			</div>
+  			</div>
+		</div>
+	</div>
+  </body>
+</html>
